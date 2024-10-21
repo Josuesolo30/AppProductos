@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Productos de la Tienda </h1>
+
+    </header>
+
+    <input type="text" id="search-bar" placeholder="Buscar productos" oninput="searchProducts()">
+
+    <input type="range" id="price-filter" min="0" max="1000" oninput="filterByPrice()">
+
+
+    <main>
+        <section id="productos">
+
+            <div class="container" id=" container">
+
+
+            </div>
+            <!-- Los productos se cargarán aquí -->
+        </section>
+    </main>
+    <script src="/App.js"></script>
+</body>
+
+</html>
